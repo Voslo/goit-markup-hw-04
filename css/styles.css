@@ -98,7 +98,6 @@ img{
 .page-nav{
     display: flex;
     align-items: center;
-    color: var(--ocean);
 }
 .page-head .container{
     display: flex;
@@ -113,7 +112,6 @@ img{
 .link.logo{
     margin-right: 76px;
     padding: 24px 0;
-    color: var(--ocean);
 }
 .page-nav.list{
     margin-top: 24px;
@@ -175,17 +173,18 @@ img{
     display: flex;
     margin-left: auto;
     padding: 24px 0;
-    color: var(--ocean);
 }
 .list-nav{
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    color: var(--ocean);
 }
 .list-nav-address{
     display: flex;
     gap: 40px;
 }
+
 .link-contacts{
     font-family: 'Roboto',sans-serif;
     text-transform: none;
