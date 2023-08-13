@@ -98,6 +98,7 @@ img{
 .page-nav{
     display: flex;
     align-items: center;
+    color: var(--ocean);
 }
 .page-head .container{
     display: flex;
@@ -112,6 +113,7 @@ img{
 .link.logo{
     margin-right: 76px;
     padding: 24px 0;
+    color: var(--ocean);
 }
 .page-nav.list{
     margin-top: 24px;
@@ -133,7 +135,6 @@ img{
 .link:focus,
 .link:hover{
     color:var(--ocean);
-
 }
 .link-span{
     color: var(--navyblue);
@@ -142,13 +143,6 @@ img{
     list-style: none;
     display: flex;
     gap: 24px;
-}
-.list-studio{
-    color: var(--navyblue);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 .link-studio{
     font-family: 'Roboto', sans-serif;
@@ -181,10 +175,7 @@ img{
     display: flex;
     margin-left: auto;
     padding: 24px 0;
-}
-.list-studio:focus,
-.list-studio:hover{
-    color:var(--ocean);
+    color: var(--ocean);
 }
 .list-nav{
     display: flex;
@@ -349,6 +340,7 @@ img{
     align-items: center;
     height: 112px;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 .section-advantages{
     padding-top: 120px;
@@ -357,7 +349,7 @@ img{
 .advantages-item{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+
 }
 .advantages-text{
     font-size: 16px;
@@ -371,6 +363,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+    margin-bottom: 8px;
 } 
 /* work section */
 .section-work{
