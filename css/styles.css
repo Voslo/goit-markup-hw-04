@@ -162,7 +162,9 @@ img{
     width: 100%;
     height: 4px;
     border-radius: 2px;
-
+}
+.current{
+    color: var(--ocean);
 }
 .current::after{
     background-color: var(--ocean);
@@ -178,7 +180,6 @@ img{
     display: flex;
     gap: 40px;
     padding: 24px 0;
-    color: var(--ocean);
 }
 .list-nav-address{
     display: flex;
